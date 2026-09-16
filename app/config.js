@@ -1,11 +1,12 @@
 // Your name appears in the top navigation and page titles.
-export const name = "Your Name";
+export const name = "Jonah Xu";
 export const websiteDescription = `${name}'s personal website.`;
 
 // Add, remove, or reorder links here. href accepts local paths or external URLs.
 export const navigationLinks = [
   { href: "/blog", label: "Blog" },
   { href: "/projects", label: "Projects" },
+  { href: "/photos", label: "Photos" },
 ];
 
 // Home page profile. Put the photo in public/ and set its filename below.
@@ -23,8 +24,8 @@ export const ownerProfile = {
     { label: "Interests", value: "Your main interests" },
     {
       label: "Contact",
-      value: "you@example.com",
-      href: "mailto:you@example.com",
+      value: "jonahxu@mit.edu",
+      href: "mailto:jonahxu@mit.edu",
     },
   ],
   // Heading for the links section below the profile facts.
@@ -32,8 +33,7 @@ export const ownerProfile = {
   // Replace these example URLs with yours.
   // Add, remove, or reorder entries; use [] to hide the list.
   links: [
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/your-username/" },
-    { label: "Google Scholar", href: "https://scholar.google.com/citations?user=your-id" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/jonah-xu/" },
   ],
 };
 
